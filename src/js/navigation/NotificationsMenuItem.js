@@ -3,10 +3,10 @@ import { Item } from '../components/TopNavBar'
 
 const notification = (img, name, time, message) => ({ img, name, time, message })
 const notifications = [
-  notification('/images/img.jpg', 'John Smith', '3 mins ago', 'Film festivals used to be do-or-die moments for movie makers. They were where...'),
-  notification('/images/img.jpg', 'Juan Lopez', '6 mins ago', 'Film festivals used to be do-or-die moments for movie makers. They were where...'),
-  notification('/images/img.jpg', 'Pito Perez', '10 mins ago', 'Film festivals used to be do-or-die moments for movie makers. They were where...'),
-  notification('/images/img.jpg', 'Juan Camaney', '1 hr ago', 'Film festivals used to be do-or-die moments for movie makers. They were where...'),
+  notification('/images/user.png', 'John Smith', '3 mins ago', 'Film festivals used to be do-or-die moments for movie makers. They were where...'),
+  notification('/images/user.png', 'Juan Lopez', '6 mins ago', 'Film festivals used to be do-or-die moments for movie makers. They were where...'),
+  notification('/images/user.png', 'Pito Perez', '10 mins ago', 'Film festivals used to be do-or-die moments for movie makers. They were where...'),
+  notification('/images/user.png', 'Juan Camaney', '1 hr ago', 'Film festivals used to be do-or-die moments for movie makers. They were where...'),
 ]
 
 class NotificationsMenuItem extends Component {

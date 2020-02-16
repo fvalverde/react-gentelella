@@ -6,7 +6,7 @@ class UserMenuItem extends Component {
     return (
       <Item {...this.props}>
         <Item.Content className="user-profile">
-          <img src="images/img.jpg" alt=""/>John Doe
+          <img src="images/user.png" alt=""/>John Doe
           <span className=" fa fa-angle-down"></span>
         </Item.Content>
         <Item.SubMenu className="dropdown-usermenu pull-right">
